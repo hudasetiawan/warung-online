@@ -1,0 +1,47 @@
+.order-form {
+    height: auto;
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin: 0 auto;
+}
+
+.order-form h2 {
+    text-align: center;
+    color: black;
+}
+
+.order-form form {
+    margin-top: 20px;
+}
+
+.order-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.order-form input[type="text"],
+.order-form input[type="number"] {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.order-form input[type="submit"] {
+    padding: 7px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(250, 42, 42);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.order-form input[type="submit"]:hover {
+    background-color: #45a049;
+}

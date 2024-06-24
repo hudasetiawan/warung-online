@@ -1,0 +1,70 @@
+body{
+  background-color: #f1f1f1;
+  font-family : sans-serif, Arial;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  
+  .form-container {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    width: 98%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:rgb(250, 42, 42);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: rgb(218, 2, 2);
+  }
+  
+  .menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .menu a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  .menu a:hover{
+    color: red;
+  }
+
+  select{
+    width: 97.5%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  

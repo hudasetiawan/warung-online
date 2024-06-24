@@ -1,0 +1,46 @@
+nav {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top : 0;
+    left : 0;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan */
+}
+
+/* Style the links inside the navigation bar */
+nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 31px 24px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 100%;
+}
+
+/* Change the color of links on hover */
+nav a:hover {
+    color: rgb(235, 57, 57);
+}
+
+/* Add a color to the active/current link */
+nav a.active {
+    color: rgb(235, 57, 57);;
+}
+
+nav a:last-child {
+    float: right; /* Mengatur posisi ke kanan */
+}
+
+nav img{
+    float: left;
+    margin-top: 2px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    height: 75px; 
+    width: 120px;
+}
